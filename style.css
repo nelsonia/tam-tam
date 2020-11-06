@@ -227,11 +227,6 @@ div.gallery {
     border: 1px solid #777;
   }
   
-  
-  * {
-    box-sizing: border-box;
-  }
-  
   .responsive {
     padding: 0 6px;
     float: left;
