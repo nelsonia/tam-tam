@@ -7,19 +7,22 @@
 }
 li, a, button {
     font-family: "Montserrat", sans-serif;
-    font-weight: 500;
+    font-weight: bolder;
     font-size: 16px;
     color: whitesmoke;
     text-decoration: none;
     font-weight: bolder;
     margin-left: 0px;
+    justify-items: center;
+    justify-content: center;
 
 }
 header {
     display: flex;
-    justify-content: space-between;
-    
-    padding: 30px 10%;
+    justify-content: space-around;
+    padding: 30px;
+    margin-left: -40px;
+
 
 }
 .logo{
@@ -33,6 +36,7 @@ header {
 .nav_links li {
     display:inline-block ;
     padding: 0px 20px;
+    margin-right: -10px;
 }
 .nav_links li a{
     transition: all 0.3s ease 0s;
@@ -41,10 +45,13 @@ header {
 .nav_links li a:hover{
     color: #0d6a81;
 }
+.cta{
+    margin-right: -10px;
+}
 
 button{
     padding: 9px 25px;
-    background-color: rgba(0,136,169,1);
+    background-color: rgb(81, 155, 87);
     border: none;
     border-radius: 50px;
     transition: all 0.3s ease 0s;
@@ -53,39 +60,51 @@ button{
  
 }
 button :hover{
-    background-color: rgba(0,136,169,0.8);
-    text-decoration: underline;
+    background-color: rgba(226, 238, 241, 0.8);
+    
 
 }
 
 /* for the content */
 
 .wrap{
-    background: rgba(0,0,0,0.5) url("https://restaurantengine.com/wp-content/uploads/2015/01/deliver-excellent-customer-service.jpg");
+    background-image: url("https://wallpaperaccess.com/full/462860.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center center;
     min-height: 100vh;
     overflow: hidden;
     background-blend-mode: overlay;
+    margin-right: 0px;
+    width: 100%;
+    justify-content: center;
+    position: relative;
+    background-attachment: fixed;
 }
 .wave{
     position: absolute;
     width: 100%;
     bottom: -65px;
     color: #fff;
-    opacity: 0.5;
-    margin-left: -0.7px;
+    opacity: 2;
+    margin-left: -0.1px;
     /* margin-right: 12px; */
-     margin-bottom: 59px; 
+     margin-bottom: 45px; 
 
 }
 
 .content{
-    max-width: 100%;
+    max-width: 1000px;
     padding: 200px 80px 0;
     color: #fff;
     margin-top: -95px;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 15px;
+    padding-left: 15px;
 
 }
 .content h1{
@@ -93,39 +112,129 @@ button :hover{
 }
 .content p{
     font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 25px 0px ;
-    font-weight: 300px;
+    font-weight: 30px;
+    flex-wrap: wrap;
+    
+}
+.text-center{
+    text-align: center!important;
 }
 .content .btn-group{
-    margin-top: 45px;
+    margin-top: 55px;
     display: inline-block;
     justify-content: center;
 
 }
 .content a{
-    display: inline-block;
     padding: 15px 45px;
     text-decoration: none;
     color: #fff;
     border-radius: 50px ;
+    justify-content: center;
 }
+
 .content a.color1{
     background-color: rgb(81, 155, 87);
+    margin-left: -40px;
 
 }
 .content a.color2{
     background-color: rgb(164, 172, 165);
+    
 
 }
 
-@media screen and (max-width: 1600px) {
-    div.content {
-      display: inline-block;
-    }
-  }
 
-  @media screen and (max-width: 1600px) {
-    div.wrap {
-      display: inline-block;
-    }
+/* for services */
+.left{
+    margin-left: 0;
+    padding: 0%;
+    float: left;
+}
+.right{
+    margin-right: 0px;
+    float: right;
+}
+.services{
+    /* background-color: wheat; */
+    min-height: 100vh;
+    background-attachment: fixed;
+}
+.h1{
+    font-size: 15px;
+    margin-left: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 0.5;
+    margin-top: 20px;
+}
+.h2{
+    font-size: 25px; 
+    margin-left: 10px;
+}
+.food{
+    margin-left: 40px;
+}
+.fa-ul{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.fa-ul ,ul, li{
+    align-items: center;
+}
+.fa-ul button{
+    margin-top: 10px;
+    margin-left: 40px;
+    background-color: none;
+
+}
+.fa-ul button:hover{
+    background-color: white;
+}
+.fa-ul i{
+    margin-top: 10px;
+    opacity: 0.5;
+}
+
+/* for the items sold */
+div.gallery {
+    margin: 5px;
+    /* border-radius: 70px; */
+    float: left;
+    width: 180px;
+    box-shadow: 0 20px 20px rgba(0,0,0,0.2), 0px 0px 50px rgba(0,0,0,0.2);
+    margin-top: 10px;
+    box-sizing: border-box;
+
   }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    
+  }
+  
