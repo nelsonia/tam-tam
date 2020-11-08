@@ -1,0 +1,152 @@
+<--for the right side-->
+<h1 class="h1"><small>SELECT YOUR MEAL</small></h1>
+            <h1 class="h2">Popular Foods</h1>
+            <div class="food">
+                <ul class="fa-ul">
+                    <li><i class="fa-li fa fa-coffee"></i><a href="#breakfast"><button>Breakfast</button></li></a>
+                    <li><i class="fa-li fa fa-check-square"></i><a href="#"><button>Lunch</button></li></a>
+                    <li><i class="fa-li fa fa-cutlery"></i><a href="#"><button>Dinner</button></li></a>
+                    <li><i class="fa-li fa fa-cutlery"></i><a href="#"><button>Drinks</button></li></a>
+                </ul>
+            </div>
+
+
+
+<--for the left side -->
+
+
+<div style="margin-left: 50%; min-height: 100vh; background: wheat;">
+<div class="responsive">
+                <div class="gallery">
+                    <a target="_blank"
+                        href="https://nairobinews.nation.co.ke/wp-content/uploads/2019/10/Coffee-cup.jpg">
+                        <img src="https://nairobinews.nation.co.ke/wp-content/uploads/2019/10/Coffee-cup.jpg"
+                            alt="Forest" width="600" height="400">
+                    </a>
+                    <div class="desc">Add a description of the image here</div>
+                </div>
+            </div>
+
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://www.onemedical.com/media/images/47579045_ckeSjj1.original.jpg">
+                        <img src="https://www.onemedical.com/media/images/47579045_ckeSjj1.original.jpg"
+                            alt="Northern Lights" width="600" height="400">
+                    </a>
+                    <div class="desc">Add a description of the image here</div>
+                </div>
+            </div>
+
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://www.onemedical.com/media/images/47579045_ckeSjj1.original.jpg">
+                        <img src="https://www.onemedical.com/media/images/47579045_ckeSjj1.original.jpg"
+                            alt="Northern Lights" width="600" height="400">
+                    </a>
+                    <div class="desc">Add a description of the image here</div>
+                </div>
+            </div>
+        </div>
+
+
+        <--style.css-->
+        .left{
+    margin-left: 0;
+    padding: 0%;
+    float: left;
+}
+.right{
+    margin-right: 0px;
+    float: right;
+}
+.services{
+    /* background-color: wheat; */
+    min-height: 100vh;
+    background-attachment: fixed;
+}
+.h1{
+    font-size: 15px;
+    margin-left: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 0.5;
+    margin-top: 20px;
+}
+.h2{
+    font-size: 25px; 
+    margin-left: 10px;
+}
+.food{
+    margin-left: 20px;
+}
+.fa-ul{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.fa-ul ,ul, li{
+    align-items: center;
+}
+.fa-ul button{
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: none;
+
+}
+.fa-ul button:hover{
+    background-color: white;
+}
+.fa-ul i{
+    margin-top: 10px;
+    opacity: 15;
+}
+
+/* for the items sold */
+div.gallery {
+    margin: 5px;
+    /* border-radius: 70px; */
+    float: left;
+    width: 180px;
+    box-shadow: 0 20px 20px rgba(0,0,0,0.2), 0px 0px 50px rgba(0,0,0,0.2);
+    margin-top: 10px;
+    box-sizing: border-box;
+
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    
+  }
+
+  /* for about us */
+  .about{
+      background-color: green;
+      opacity: 0.7;
+      min-height: 50vh;
+      
+  }
+  .info{
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      
+
+  }
+  
