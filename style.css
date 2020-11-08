@@ -164,7 +164,7 @@ button :hover{
 @media only screen and (max-width: 600px) {
     .food-blog img{
         height: 100px;
-        justify-content: space-between;
+        
         
 }
 
@@ -189,6 +189,7 @@ h2{
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     text-align: center;
+    font-size: 18px;
 }
 
 .about{
