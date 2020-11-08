@@ -36,7 +36,7 @@ header {
 .nav_links li {
     display:inline-block ;
     padding: 0px 20px;
-    margin-right: -10px;
+    margin-right: -1px;
 }
 .nav_links li a{
     transition: all 0.3s ease 0s;
@@ -46,7 +46,7 @@ header {
     color: #0d6a81;
 }
 .cta{
-    margin-right: -10px;
+    margin-right: -1px;
 }
 
 button{
